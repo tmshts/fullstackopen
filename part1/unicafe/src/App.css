@@ -1,0 +1,17 @@
+table {
+    border: 2px solid black;
+    height: 200px;
+  }
+    
+  th {
+    border: 1px solid black;
+    width: auto;
+    text-align: left;
+  }
+
+  button {
+    border-radius: 5px;
+    border: none;
+    margin: 1px;
+  }
+  
