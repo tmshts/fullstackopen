@@ -1,11 +1,2 @@
-## How to run the React application
+Part 2 is related to Communicating with server
 
-```bash
-# Install dependencies
-$ npm install
-```
-
-```bash
-# Start app
-$ npm start
-```
