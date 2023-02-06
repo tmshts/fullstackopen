@@ -1,2 +1,2 @@
-Part 2 is related to Communicating with server
+## Part 2 is related to Communicating with server
 
