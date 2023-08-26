@@ -7,6 +7,7 @@ const Header = (props) => {
 }
 
 const Part = (props) => {
+  console.log('hello')
   return (
     <p>Name of the exercise is {props.part} with {props.exercises} of exercises.</p>
   )
@@ -31,6 +32,7 @@ const Total = (props) => {
 }
 
 const App = () => {
+  console.log('hello')
   const course = {
     name: 'Half Stack application development',
     parts: [
