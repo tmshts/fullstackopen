@@ -17,12 +17,18 @@ const App = () => {
 
 
   useEffect(() => {
+    console.log('effect')
     noteService
       .getAll()
       .then(response => {
         setPersons(response)
       })
 }, [])
+// firstly, app is rendered with no fetching data
+// secondly, effect for fetching data from server thanks to axios is triggered immediatelly after first rendering
+// thirdly, response updates the state persons and hence app is rendered for second time
+console.log('render', persons.length, 'persons')
+
 
   const handleNameChange = (event) => {
     setNewName(event.target.value)
