@@ -113,6 +113,7 @@ console.log('render', persons.length, 'persons')
       noteService
         .createPerson(personObject)
         .then(returnedPerson => {
+          // After updating the state of the App -> the new note is rendered to the screen.
           setPersons(persons.concat(returnedPerson))
           setErrorMessage(
             `Added ${returnedPerson.name}.`
