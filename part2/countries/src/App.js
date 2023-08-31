@@ -8,6 +8,9 @@ const App = () => {
   const [allCountries, setAllCountries] = useState([])
   const [selectedCountries, setSelectedCountries] = useState([])
 
+  // Effect is always executed after the first render of the component and when the value of the second parameter changes
+  // If the second parameter is an empty array [], it's content never changes and the effect is only run after the first render of the component.
+  // This is exactly what we want when we are initializing the app state from the server.
   useEffect(() => {
       axios
         .get(`https://restcountries.com/v3.1/all`)

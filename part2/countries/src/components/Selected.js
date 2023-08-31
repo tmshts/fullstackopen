@@ -15,8 +15,8 @@ const Selected = ({selectedCountries, setSelectedCountries}) => {
             <div>
                 {selectedCountries.map((country) => {
                     return (
-                        <div>
-                            <div key={country.name.common}>
+                        <div key={country.name.common}>
+                            <div>
                                 {country.name.common} <Button setSelectedCountries={setSelectedCountries} country={country }/>
                             </div>
                         </div>
@@ -28,7 +28,9 @@ const Selected = ({selectedCountries, setSelectedCountries}) => {
     else if (selectedCountries.length === 1) {
         //console.log(selectedCountries)
         return (
-            <Country onecountry={selectedCountries[0]} />
+            <div>
+                <Country onecountry={selectedCountries[0]} />
+            </div>
         )
     }
 }
