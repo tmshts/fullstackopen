@@ -1,5 +1,11 @@
-## Part 1 is about Introduction to React
+# Introduction to React
 
+Creating React App.
+
+### Used:
+1. JavaScript
+2. State Hooks
+3. Event Handlers
 
 ## How to run the React application
 
