@@ -2,7 +2,7 @@
 
 ### Used:
 1. JavaScript
-2. React Hook
+2. State Hooks
 3. Event Handlers
 
 ## How to run the React application
