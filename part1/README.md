@@ -1,6 +1,6 @@
 # Introduction to React
 
-Creating React App
+Creating React App.
 
 ### Used:
 1. JavaScript
