@@ -8,6 +8,6 @@ Moreover, Redux, Node.js, MongoDB, GraphQL and TypeScript are introduced.
 Each part represents a specific topic of the web development.
 
 ## This repository contains:
-### 1. part0 - [Fundamentals of Web apps](https://github.com/tmshts/fullstackopen/tree/master/part0)
-### 2. part1 - [Introduction to React](https://github.com/tmshts/fullstackopen/tree/master/part1)
-### 3. part2 - [Communicating with server](https://github.com/tmshts/fullstackopen/tree/master/part2)
+### - part0 - [Fundamentals of Web apps](https://github.com/tmshts/fullstackopen/tree/master/part0)
+### - part1 - [Introduction to React](https://github.com/tmshts/fullstackopen/tree/master/part1)
+### - part2 - [Communicating with server](https://github.com/tmshts/fullstackopen/tree/master/part2)
